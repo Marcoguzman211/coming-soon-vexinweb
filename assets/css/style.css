@@ -95,7 +95,7 @@ body.show-panel #page #content * {
 }
 
 .brand img {
-    height: 100px;
+    height: 300px;
 }
 /********
 --- C ---
@@ -719,6 +719,8 @@ p {
 .btn.btn-primary {
     background-color: #7937b9;
     border: 3px solid #7937b9
+    /* background-color: #EAE413;
+    border: 3px solid #EAE413 */
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
     background-color: #7937b9;
@@ -1224,8 +1226,10 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
     color: #fff
 }
 .color-theme-blue .btn.btn-primary {
-    background-color: #0065fc;
-    border: 3px solid #0065fc
+    /* background-color: #0065fc;
+    border: 3px solid #0065fc */
+    background-color: #2BB673;
+    border: 3px solid #2BB673
 }
 .color-theme-blue .btn.btn-primary.btn-border {
     border: 3px solid #0065fc;
@@ -1233,8 +1237,10 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
     color: #fff
 }
 .color-theme-blue .btn.btn-primary:hover, .color-theme-blue .btn.btn-primary:focus, .color-theme-blue .btn.btn-primary:active {
-    background-color: #0065fc;
-    border: 3px solid #0065fc;
+    /* background-color: #0065fc;
+    border: 3px solid #0065fc; */
+    background-color: #2BB673;
+    border: 3px solid #2BB673;
     color: #fff
 }
 .color-theme-blue .side-panel .gallery .image h4:after {
