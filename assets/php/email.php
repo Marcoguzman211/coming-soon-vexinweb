@@ -1,8 +1,8 @@
 <?php
 mb_internal_encoding("UTF-8");
 
-$to = 'hithemestarz@gmail.com';
-$subject = 'Message from Inovo';
+$to = 'vexinweb@gmail.com';
+$subject = 'Message depuis le site web vexinweb.fr';
 
 $name = "";
 $email = "";
