@@ -95,7 +95,7 @@ body.show-panel #page #content * {
 }
 
 .brand img {
-    height: 250px;
+    height: 280px;
 }
 @media screen and (max-width: 1000px) {
     .brand img {
