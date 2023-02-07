@@ -852,10 +852,12 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
     line-height: 40px
 }
 .form .status .status-icon.valid {
-    background-color: #50aa8d
+    background-color: #50aa8d;
+    margin: 10px 10px;
 }
 .form .status .status-icon.invalid {
-    background-color: #e45544
+    background-color: #e45544;
+    margin: 10px 10px;
 }
 .form .status i {
     font-size: 18px
