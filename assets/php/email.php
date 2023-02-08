@@ -1,7 +1,7 @@
 <?php
 mb_internal_encoding("UTF-8");
 
-$to = 'vexinweb@gmail.com';
+$to = 'contact@vexinweb.fr';
 $subject = 'Message depuis le site web vexinweb.fr';
 
 $name = "";

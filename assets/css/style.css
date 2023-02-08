@@ -881,10 +881,11 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
 .form label.error {
     position: absolute;
     left: 0;
-    bottom: -30px;
-    background-color: red;
-    color: #fff;
-    padding: 3px
+    bottom: -35px;
+    /* background-color: red; */
+    color: red;
+    padding: 3px;
+    font-weight: 400;
 }
 [data-layer-depth="0"] {
     transform: translateZ(0px)
@@ -1096,7 +1097,8 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
         right: 40px
     }
     .btn {
-        font-size: 14px
+        font-size: 14px;
+        margin-top: 20px;
     }
     #content {}
     #content .heading {
@@ -1150,7 +1152,15 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
         transform: translateX(100%);
         right: 0
     }
+    .form-control {
+        margin-top: 30px
+    }
 }
+
+textarea.form-control {
+    margin-top: 20px;
+}
+
 .color-theme-red {}
 .color-theme-red a {
     color: #ed1c24
