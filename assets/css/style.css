@@ -95,11 +95,11 @@ body.show-panel #page #content * {
 }
 
 .brand img {
-    height: 280px;
+    height: 200px;
 }
 @media screen and (max-width: 1000px) {
     .brand img {
-        height: 200px;
+        height: 150px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -112,6 +112,11 @@ body.show-panel #page #content * {
 /********
 --- C ---
 ********/
+
+.page-wrapper {
+    overflow: auto; 
+}
+
 .cd-background-wrapper, .page-wrapper {
     height: 100%;
     background-color: transparent
@@ -183,9 +188,14 @@ body.show-panel #page #content * {
 }
 #content {}
 #content .heading {
-    margin-bottom: 50px;
+    /* margin-bottom: 200px; */
     position: relative
 }
+
+/* .heading {
+    max-width: 1000px;
+} */
+
 #content .heading p {
     opacity: .9
 }
@@ -435,7 +445,7 @@ body.show-panel #page #content * {
 }
 #page > #content .content-wrapper {
     display: table-cell;
-    vertical-align: middle
+    vertical-align: middle;
 }
 #page > #content .content-wrapper a {
     pointer-events: auto
