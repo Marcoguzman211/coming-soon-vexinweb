@@ -509,7 +509,8 @@ body.show-panel #page #content * {
     position: absolute;
     bottom: -10px;
     left: 0;
-    content: ""
+    content: ""; 
+    /* display: none; */
 }
 .side-panel .gallery .image a {
     display: block;
@@ -533,7 +534,7 @@ body.show-panel #page #content * {
     font-variant: normal;
     line-height: 1;
     text-transform: none;
-    content: "\f00e";
+    content: "";
     transform: scale(2);
     opacity: 0;
     transition: .3s ease
@@ -552,11 +553,13 @@ body.show-panel #page #content * {
 }
 .side-panel .gallery .image a:hover {}
 .side-panel .gallery .image a:hover:after {
-    opacity: .3
+    opacity: .3; 
+    /* display: none; */
 }
 .side-panel .gallery .image a:hover:before {
     opacity: 1;
-    transform: scale(1)
+    transform: scale(1); 
+    /* display: none; */
 }
 .side-panel .gallery .image p {
     font-size: 14px
